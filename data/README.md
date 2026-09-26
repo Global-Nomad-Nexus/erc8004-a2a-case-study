@@ -62,27 +62,28 @@ configs:
 
 # ERC-8004 vs Google A2A Governance Dataset
 
-Full raw + annotated dataset for **RQ1: DAO governance vs. corporate governance in technology
-standardization** — comparing **ERC-8004** (Trustless Agents, EIP/DAO process) against **Google A2A**
-(Agent-to-Agent protocol, corporate hierarchy).
+Full raw + annotated dataset for a comparative study of public governance records
+in AI-agent interoperability standardization: **ERC-8004** in the open Ethereum
+standards process and **A2A**, initiated by Google and now under the Linux Foundation.
 
-> **GitHub repository:** [kl41r3/erc8004-a2a-case-study](https://github.com/kl41r3/erc8004-a2a-case-study) — complete computational pipeline (scraping → LLM annotation → analysis → figures).
+> **Computational fork and checked SVG figures:** [sunshineluyao/erc8004-a2a-case-study](https://github.com/sunshineluyao/erc8004-a2a-case-study). **Dataset host:** [kl41r3/erc8004-vs-a2a-governance](https://huggingface.co/datasets/kl41r3/erc8004-vs-a2a-governance). This local card does not republish the hosted dataset.
 
 ---
 
 ## Research Context
 
-**Research Question:** Compared to corporations, how does the governance structure of
-permissionless DAOs shape participation patterns, discourse composition, and network
-topology in AI agent protocol standardization?
+**Research Question:** How do the publicly observable authority, participation,
+discourse, and network patterns of two AI-agent interoperability standards compare?
 
-**Case A — ERC-8004** ("Trustless Agents"): Ethereum Improvement Proposal for permissionless
-AI agent infrastructure. Governed via EIP rough consensus — open deliberation on the Ethereum
-Magicians forum and GitHub, with no binding authority structure.
+**Case A — ERC-8004** ("Trustless Agents"): An open Ethereum standard with public
+proposal and review routes, while permissionless deployment is distinct from the
+standard's editorial process. EIP-1 specifies rough consensus for **Core EIPs**;
+that rule should not be generalized to every ERC decision.
 
-**Case B — Google A2A** (Agent-to-Agent protocol): Corporate-initiated AI agent protocol under
-Linux Foundation governance with an 8-seat Technical Steering Committee that vests binding
-decision authority.
+**Case B — A2A** (Agent2Agent protocol): Initiated by Google and transferred to
+Linux Foundation governance. Anyone may contribute or become a maintainer;
+initial binding TSC voting authority rests with eight seats. Its 18-month
+provision concerns future TSC composition, not contributor eligibility.
 
 The paper reports results at two scopes:
 
@@ -402,13 +403,13 @@ Failed/discarded models (data deleted): MiniMax-M3, Kimi-K2.6, deepseek-chat, gl
 
 ## Key Findings
 
-1. **Participation is oligarchic across both governance forms, despite opposite decision architectures.** ERC-8004 advances by rough consensus with permissionless deployment; A2A vests binding authority in an 8-seat corporate TSC (transitioned to Linux Foundation governance in June 2025). Yet both produce comparable participation inequality (degree Gini 0.804 vs 0.779; betweenness Gini 0.931 vs 0.979), and the majority of contributors in both cases engage only a single theme (median actor Shannon entropy H=0). ERC-8004's top-3 degree holders span MetaMask, Hats Protocol, and The Graph; A2A's top-3 include two Google employees and one from Microsoft.
+1. **Participation is concentrated in both public networks.** ERC-8004 has public proposal and review routes with deployment distinct from standardization; A2A's initial binding votes rest with its eight-seat TSC even though anyone may contribute. The released R1 degree Gini is 0.804 for ERC-8004 and 0.779 for A2A, and betweenness Gini is 0.931 and 0.979. These measures describe observed public interaction, not the demographics or fairness of participation.
 
-2. **Discourse is technically dominated in both cases, but governance form shapes composition.** A2A devotes nearly twice the share to Process arguments (25.4% vs 13.9%, χ²(3)=52.88, p<.001, Cramér's V=.103), reflecting heavier coordination overhead in corporate governance. Within ERC-8004, Process discussion surges to 53% in Phase 3 as deliberation shifts from design to editorial ratification. Topic divergence is moderate but meaningful: JSD=0.288 (BERTopic) and JSD=0.216 (Thematic-LM).
+2. **The observed discussion differs in composition.** A2A devotes a larger share to Process arguments (25.4% vs 13.9%; χ²(3)=52.88, p<.001, Cramér's V=.103). Within ERC-8004, Process discussion rises during the later ratification stage. These are descriptive differences; governance form alone is not identified as their cause. Equal-size record bootstrap intervals for five argument categories touch or cross zero (see the fork's robustness results).
 
-3. **DAO concentrates on trust; corporate governance spreads across engineering execution.** ERC-8004 is dominated by T08 Trust & Security Mechanisms (34.5% of records; 34.5% actor participation rate vs A2A's 4.0%). A2A spreads deliberation across Documentation (T06), Community Contributions (T07), and Protocol Specification (T01), plus three engineering-execution themes (Transport, Streaming, Project Governance) entirely absent from the EIP forum.
+3. **The thematic focus differs.** ERC-8004 has a large Trust & Security theme (34.5% of records in the reported thematic analysis). A2A discussion covers documentation, community contributions, protocol specification, and implementation themes. The topic models are exploratory; they have no human gold-standard label-accuracy estimate.
 
-4. **Network connectivity reverses with scope.** At single-case level, the DAO attains denser discourse congruence (0.148 vs 0.082, congruence density), consistent with groupthink in a small reputation-based elite. However, expanding to a 34-ERC agent cluster overturns this finding: the DAO network coalesces at ecosystem scale (GCR 0.328 → 0.917), while the re-annotated A2A network remains fragmented (GCR 0.534 → 0.285). The permissionless DAO is the *more* connected and observable regime at ecosystem scale — coordination in the corporate case moves off the public record.
+4. **Connectivity depends on the corpus boundary.** R1 giant-component ratios are 0.328 for ERC-8004 and 0.534 for A2A. In the R2 34-ERC expansion and re-annotated A2A data they are 0.917 and 0.285, respectively. The R1 and R2 corpora and networks differ, so those values are not a before/after causal effect or evidence about unobserved private coordination.
 
 ---
 
@@ -420,9 +421,10 @@ Failed/discarded models (data deleted): MiniMax-M3, Kimi-K2.6, deepseek-chat, gl
 | Cross-round | 3 models | 3 | Paper snapshot: ERC 1,664 / A2A 3,844; current artifact: ERC 1,664 / A2A 4,187 | GLM-4-Plus κ = 0.86–0.93 (most stable); DeepSeek κ = 0.49–0.63 |
 | 4-model (R1 + cross-round) | +MiniMax-M2.5 | 1 | ERC 144 / A2A 3,844 | 4-way Fleiss' κ ≈ 0.46–0.51 (Moderate); model choice dominates stochastic noise |
 
-**What replicates** (3 of 4 findings): (i) discourse remains technically dominated across models; (ii) participation inequality persists (Gini ≈ 0.8); (iii) DAO attains denser within-community consensus.
-
-**What reverses** (1 of 4): network connectivity ranking inverts at ecosystem scale — the permissionless DAO becomes the *more* connected and observable regime (GCR 0.917 vs. A2A 0.285), because corporate coordination moves off the public record.
+Across the released robustness checks, technical arguments remain prominent and
+public participation remains concentrated. Network giant-component ratios differ
+between R1 and R2, but the corpora and tie constructions also change. These
+checks do not establish a causal governance effect or reveal private coordination.
 
 ---
 
@@ -450,7 +452,7 @@ non-commercial use only.
 ## Citation
 
 If you use this dataset, please cite the accompanying paper and link to the
-[GitHub repository](https://github.com/kl41r3/erc8004-a2a-case-study).
+[computational repository](https://github.com/sunshineluyao/erc8004-a2a-case-study) and the separate [hosted dataset](https://huggingface.co/datasets/kl41r3/erc8004-vs-a2a-governance).
 
 ```bibtex
 @inproceedings{wang2026agentic,

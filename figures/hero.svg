@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" viewBox="0 0 1440 720" role="img" aria-labelledby="title desc">
+<title id="title">Governance evidence pathway for ERC-8004 and A2A</title>
+<desc id="desc">ERC-8004 has public proposals and review with separate deployment. A2A permits contributions but initial binding votes are held by an eight-seat Technical Steering Committee. Public records show concentration, different deliberation, and scope-dependent connectivity. The six-stage reproducibility pathway leads from source records to checked figures; the comparison is descriptive.</desc>
+<rect x="0" y="0" width="1440" height="720" rx="0" fill="#0B1220" stroke="none" stroke-width="1"/>
+<rect x="64" y="50" width="5" height="60" rx="2" fill="#34D3E6" stroke="none" stroke-width="1"/>
+<text x="88" y="79" fill="#F3F7FF" font-size="42" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Who governs AI-agent interoperability?</text>
+<text x="88" y="113" fill="#B5C3D8" font-size="19" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Two standards · one infrastructure problem · different routes to binding decisions</text>
+<rect x="64" y="151" width="624" height="239" rx="16" fill="#152239" stroke="#38516E" stroke-width="1"/>
+<rect x="752" y="151" width="624" height="239" rx="16" fill="#152239" stroke="#38516E" stroke-width="1"/>
+<text x="92" y="194" fill="#34D3E6" font-size="27" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">ERC-8004</text>
+<text x="92" y="222" fill="#B5C3D8" font-size="17" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Open Ethereum standards process</text>
+<text x="780" y="194" fill="#56D3A3" font-size="27" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Agent2Agent (A2A)</text>
+<text x="780" y="222" fill="#B5C3D8" font-size="17" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Open contributions, chartered TSC authority</text>
+<path d="M103 260h24l8 8v35h-32z M127 260v8h8" fill="none" stroke="#34D3E6" stroke-width="2.5"/><line x1="109" y1="278" x2="128" y2="278" stroke="#34D3E6" stroke-width="2" /><line x1="109" y1="285" x2="128" y2="285" stroke="#34D3E6" stroke-width="2" />
+<text x="92" y="335" fill="#F3F7FF" font-size="16" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Proposal</text>
+<line x1="164" y1="282" x2="256" y2="282" stroke="#34D3E6" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="304" cy="277" r="13" fill="none" stroke="#34D3E6" stroke-width="2.5"/><line x1="314" y1="287" x2="327" y2="300" stroke="#34D3E6" stroke-width="3" />
+<text x="277" y="335" fill="#F3F7FF" font-size="16" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Public review</text>
+<line x1="349" y1="282" x2="441" y2="282" stroke="#34D3E6" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="479" y1="284" x2="498" y2="266" stroke="#34D3E6" stroke-width="2" /><line x1="498" y1="266" x2="516" y2="284" stroke="#34D3E6" stroke-width="2" /><line x1="516" y1="284" x2="498" y2="303" stroke="#34D3E6" stroke-width="2" /><line x1="498" y1="303" x2="479" y2="284" stroke="#34D3E6" stroke-width="2" /><circle cx="479" cy="284" r="4.5" fill="#0B1220" stroke="#34D3E6" stroke-width="2"/><circle cx="498" cy="266" r="4.5" fill="#0B1220" stroke="#34D3E6" stroke-width="2"/><circle cx="516" cy="284" r="4.5" fill="#0B1220" stroke="#34D3E6" stroke-width="2"/><circle cx="498" cy="303" r="4.5" fill="#0B1220" stroke="#34D3E6" stroke-width="2"/>
+<text x="462" y="335" fill="#F3F7FF" font-size="16" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Separate deployment</text>
+<path d="M791 260h24l8 8v35h-32z M815 260v8h8" fill="none" stroke="#56D3A3" stroke-width="2.5"/><line x1="797" y1="278" x2="816" y2="278" stroke="#56D3A3" stroke-width="2" /><line x1="797" y1="285" x2="816" y2="285" stroke="#56D3A3" stroke-width="2" />
+<text x="780" y="335" fill="#F3F7FF" font-size="16" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Contribution</text>
+<line x1="852" y1="282" x2="944" y2="282" stroke="#56D3A3" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="992" cy="277" r="13" fill="none" stroke="#56D3A3" stroke-width="2.5"/><line x1="1002" y1="287" x2="1015" y2="300" stroke="#56D3A3" stroke-width="3" />
+<text x="965" y="335" fill="#F3F7FF" font-size="16" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">GitVote process</text>
+<line x1="1037" y1="282" x2="1129" y2="282" stroke="#56D3A3" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1167" y1="284" x2="1186" y2="266" stroke="#56D3A3" stroke-width="2" /><line x1="1186" y1="266" x2="1204" y2="284" stroke="#56D3A3" stroke-width="2" /><line x1="1204" y1="284" x2="1186" y2="303" stroke="#56D3A3" stroke-width="2" /><line x1="1186" y1="303" x2="1167" y2="284" stroke="#56D3A3" stroke-width="2" /><circle cx="1167" cy="284" r="4.5" fill="#0B1220" stroke="#56D3A3" stroke-width="2"/><circle cx="1186" cy="266" r="4.5" fill="#0B1220" stroke="#56D3A3" stroke-width="2"/><circle cx="1204" cy="284" r="4.5" fill="#0B1220" stroke="#56D3A3" stroke-width="2"/><circle cx="1186" cy="303" r="4.5" fill="#0B1220" stroke="#56D3A3" stroke-width="2"/>
+<text x="1150" y="335" fill="#F3F7FF" font-size="16" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Eight TSC seats</text>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#6B91A9"/></marker></defs>
+<text x="92" y="370" fill="#B5C3D8" font-size="14" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Participation is open; protocol deployment is distinct from review.</text>
+<text x="780" y="370" fill="#B5C3D8" font-size="14" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Anyone may contribute; initial TSC voting is restricted.</text>
+<text x="64" y="440" fill="#F3F7FF" font-size="25" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">What the released public records support</text>
+<rect x="64" y="460" width="400" height="92" rx="10" fill="#111F34" stroke="#38516E" stroke-width="1"/>
+<rect x="64" y="460" width="5" height="92" rx="2" fill="#34D3E6" stroke="none" stroke-width="1"/>
+<text x="85" y="491" fill="#34D3E6" font-size="15" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">PARTICIPATION</text>
+<text x="85" y="525" fill="#F3F7FF" font-size="17" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">High inequality in both networks</text>
+<rect x="520" y="460" width="400" height="92" rx="10" fill="#111F34" stroke="#38516E" stroke-width="1"/>
+<rect x="520" y="460" width="5" height="92" rx="2" fill="#56D3A3" stroke="none" stroke-width="1"/>
+<text x="541" y="491" fill="#56D3A3" font-size="15" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">DELIBERATION</text>
+<text x="541" y="525" fill="#F3F7FF" font-size="17" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Different discussion emphases</text>
+<rect x="976" y="460" width="400" height="92" rx="10" fill="#111F34" stroke="#38516E" stroke-width="1"/>
+<rect x="976" y="460" width="5" height="92" rx="2" fill="#F9C66B" stroke="none" stroke-width="1"/>
+<text x="997" y="491" fill="#F9C66B" font-size="15" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">OBSERVATION SCALE</text>
+<text x="997" y="525" fill="#F3F7FF" font-size="17" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Connectivity changes with corpus scope</text>
+<text x="64" y="602" fill="#F3F7FF" font-size="20" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Trace each result</text>
+<path d="M65 622h24l8 8v35h-32z M89 622v8h8" fill="none" stroke="#34D3E6" stroke-width="2.5"/><line x1="71" y1="640" x2="90" y2="640" stroke="#34D3E6" stroke-width="2" /><line x1="71" y1="647" x2="90" y2="647" stroke="#34D3E6" stroke-width="2" />
+<text x="116" y="649" fill="#F3F7FF" font-size="15" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Source records</text>
+<line x1="231" y1="641" x2="272" y2="641" stroke="#38516E" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="301" cy="639" r="13" fill="none" stroke="#34D3E6" stroke-width="2.5"/><line x1="311" y1="649" x2="324" y2="662" stroke="#34D3E6" stroke-width="3" />
+<text x="336" y="649" fill="#F3F7FF" font-size="15" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Query code</text>
+<line x1="451" y1="641" x2="492" y2="641" stroke="#38516E" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="505" y="622" width="43" height="39" rx="4" fill="none" stroke="#34D3E6" stroke-width="2"/><line x1="505" y1="635" x2="548" y2="635" stroke="#34D3E6" stroke-width="2" /><line x1="526" y1="635" x2="526" y2="661" stroke="#34D3E6" stroke-width="2" /><line x1="505" y1="648" x2="548" y2="648" stroke="#34D3E6" stroke-width="2" />
+<text x="556" y="649" fill="#F3F7FF" font-size="15" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Archived data</text>
+<line x1="671" y1="641" x2="712" y2="641" stroke="#38516E" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="731" y1="646" x2="750" y2="628" stroke="#56D3A3" stroke-width="2" /><line x1="750" y1="628" x2="768" y2="646" stroke="#56D3A3" stroke-width="2" /><line x1="768" y1="646" x2="750" y2="665" stroke="#56D3A3" stroke-width="2" /><line x1="750" y1="665" x2="731" y2="646" stroke="#56D3A3" stroke-width="2" /><circle cx="731" cy="646" r="4.5" fill="#0B1220" stroke="#56D3A3" stroke-width="2"/><circle cx="750" cy="628" r="4.5" fill="#0B1220" stroke="#56D3A3" stroke-width="2"/><circle cx="768" cy="646" r="4.5" fill="#0B1220" stroke="#56D3A3" stroke-width="2"/><circle cx="750" cy="665" r="4.5" fill="#0B1220" stroke="#56D3A3" stroke-width="2"/>
+<text x="776" y="649" fill="#F3F7FF" font-size="15" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Processing code</text>
+<line x1="891" y1="641" x2="932" y2="641" stroke="#38516E" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="945" y="622" width="43" height="39" rx="4" fill="none" stroke="#56D3A3" stroke-width="2"/><line x1="945" y1="635" x2="988" y2="635" stroke="#56D3A3" stroke-width="2" /><line x1="966" y1="635" x2="966" y2="661" stroke="#56D3A3" stroke-width="2" /><line x1="945" y1="648" x2="988" y2="648" stroke="#56D3A3" stroke-width="2" />
+<text x="996" y="649" fill="#F3F7FF" font-size="15" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Result tables</text>
+<line x1="1111" y1="641" x2="1152" y2="641" stroke="#38516E" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="1181" cy="639" r="13" fill="none" stroke="#56D3A3" stroke-width="2.5"/><line x1="1191" y1="649" x2="1204" y2="662" stroke="#56D3A3" stroke-width="3" />
+<text x="1216" y="649" fill="#F3F7FF" font-size="15" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Figures &amp; checks</text>
+<text x="64" y="697" fill="#F9C66B" font-size="13" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">DESCRIPTIVE EVIDENCE  ·  PUBLIC RECORDS ONLY  ·  NO CAUSAL OR HUMAN-LABEL ACCURACY CLAIM</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Scale-dependent connectivity in public governance records</title>
+<desc id="desc">At R1 single-protocol scope, giant-component ratios are 0.328 for ERC-8004 and 0.534 for A2A. In the expanded R2 corpus, they are 0.917 for 34 ERC protocols and 0.285 for re-annotated A2A. The scopes and network constructions differ.</desc>
+<rect x="0" y="0" width="1200" height="720" rx="0" fill="#0B1220" stroke="none" stroke-width="1"/>
+<text x="65" y="75" fill="#F3F7FF" font-size="33" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Connectivity depends on what enters the network</text>
+<text x="65" y="111" fill="#B5C3D8" font-size="17" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Giant-component ratio · fraction of actors in the largest connected group</text>
+<rect x="65" y="153" width="500" height="418" rx="15" fill="#152239" stroke="#38516E" stroke-width="1"/>
+<text x="90" y="198" fill="#F3F7FF" font-size="24" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">R1 · single protocol</text>
+<text x="90" y="225" fill="#B5C3D8" font-size="16" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">67 ERC / 771 A2A actors</text>
+<text x="90" y="304" fill="#F3F7FF" font-size="19" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">ERC-8004</text>
+<rect x="90" y="319" width="390" height="33" rx="6" fill="#273A54" stroke="none" stroke-width="1"/>
+<rect x="90" y="319" width="128.076" height="33" rx="6" fill="#34D3E6" stroke="none" stroke-width="1"/>
+<text x="227.076" y="343" fill="#F3F7FF" font-size="18" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">0.328</text>
+<text x="90" y="406" fill="#F3F7FF" font-size="19" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">A2A</text>
+<rect x="90" y="421" width="390" height="33" rx="6" fill="#273A54" stroke="none" stroke-width="1"/>
+<rect x="90" y="421" width="208.416" height="33" rx="6" fill="#56D3A3" stroke="none" stroke-width="1"/>
+<text x="307.416" y="445" fill="#F3F7FF" font-size="18" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">0.534</text>
+<line x1="90" y1="506" x2="480" y2="506" stroke="#B5C3D8" stroke-width="1" />
+<line x1="90" y1="501" x2="90" y2="511" stroke="#B5C3D8" stroke-width="1" />
+<text x="90" y="535" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">0.0</text>
+<line x1="285" y1="501" x2="285" y2="511" stroke="#B5C3D8" stroke-width="1" />
+<text x="285" y="535" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">0.5</text>
+<line x1="480" y1="501" x2="480" y2="511" stroke="#B5C3D8" stroke-width="1" />
+<text x="480" y="535" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">1.0</text>
+<rect x="635" y="153" width="500" height="418" rx="15" fill="#152239" stroke="#38516E" stroke-width="1"/>
+<text x="660" y="198" fill="#F3F7FF" font-size="24" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">R2 · expanded corpus</text>
+<text x="660" y="225" fill="#B5C3D8" font-size="16" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">204 ERC / 629 A2A actors</text>
+<text x="660" y="304" fill="#F3F7FF" font-size="19" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">ERC-8004</text>
+<rect x="660" y="319" width="390" height="33" rx="6" fill="#273A54" stroke="none" stroke-width="1"/>
+<rect x="660" y="319" width="357.63" height="33" rx="6" fill="#34D3E6" stroke="none" stroke-width="1"/>
+<text x="1026.63" y="343" fill="#F3F7FF" font-size="18" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">0.917</text>
+<text x="660" y="406" fill="#F3F7FF" font-size="19" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">A2A</text>
+<rect x="660" y="421" width="390" height="33" rx="6" fill="#273A54" stroke="none" stroke-width="1"/>
+<rect x="660" y="421" width="111.15" height="33" rx="6" fill="#56D3A3" stroke="none" stroke-width="1"/>
+<text x="780.15" y="445" fill="#F3F7FF" font-size="18" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">0.285</text>
+<line x1="660" y1="506" x2="1050" y2="506" stroke="#B5C3D8" stroke-width="1" />
+<line x1="660" y1="501" x2="660" y2="511" stroke="#B5C3D8" stroke-width="1" />
+<text x="660" y="535" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">0.0</text>
+<line x1="855" y1="501" x2="855" y2="511" stroke="#B5C3D8" stroke-width="1" />
+<text x="855" y="535" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">0.5</text>
+<line x1="1050" y1="501" x2="1050" y2="511" stroke="#B5C3D8" stroke-width="1" />
+<text x="1050" y="535" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">1.0</text>
+<text x="65" y="624" fill="#B5C3D8" font-size="17" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">R2 includes 34 related ERC protocols; the A2A corpus was also re-annotated.</text>
+<text x="65" y="657" fill="#F9C66B" font-size="16" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Different corpus boundaries and network constructions: descriptive scope check, not a causal before/after effect.</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">R1 public-network participation inequality</title>
+<desc id="desc">Degree Gini is 0.804 for ERC-8004 with 67 actors and 0.779 for A2A with 771 actors. These are descriptive network measures from public records.</desc>
+<rect x="0" y="0" width="1200" height="680" rx="0" fill="#0B1220" stroke="none" stroke-width="1"/>
+<text x="70" y="81" fill="#F3F7FF" font-size="34" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Participation is concentrated in both public networks</text>
+<text x="70" y="117" fill="#B5C3D8" font-size="18" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Degree Gini · higher values indicate more unequal interaction counts</text>
+<line x1="398" y1="490" x2="1080" y2="490" stroke="#B5C3D8" stroke-width="2" />
+<line x1="398" y1="486" x2="398" y2="497" stroke="#B5C3D8" stroke-width="1" />
+<text x="398" y="521" fill="#B5C3D8" font-size="16" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">0.00</text>
+<line x1="568.5" y1="486" x2="568.5" y2="497" stroke="#B5C3D8" stroke-width="1" />
+<text x="568.5" y="521" fill="#B5C3D8" font-size="16" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">0.25</text>
+<line x1="739" y1="486" x2="739" y2="497" stroke="#B5C3D8" stroke-width="1" />
+<text x="739" y="521" fill="#B5C3D8" font-size="16" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">0.50</text>
+<line x1="909.5" y1="486" x2="909.5" y2="497" stroke="#B5C3D8" stroke-width="1" />
+<text x="909.5" y="521" fill="#B5C3D8" font-size="16" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">0.75</text>
+<line x1="1080" y1="486" x2="1080" y2="497" stroke="#B5C3D8" stroke-width="1" />
+<text x="1080" y="521" fill="#B5C3D8" font-size="16" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">1.00</text>
+<text x="70" y="254" fill="#F3F7FF" font-size="25" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">ERC-8004</text>
+<text x="70" y="283" fill="#B5C3D8" font-size="17" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">67 public-network actors</text>
+<rect x="398" y="227" width="682" height="48" rx="7" fill="#24344C" stroke="none" stroke-width="1"/>
+<rect x="398" y="227" width="548.123" height="48" rx="7" fill="#34D3E6" stroke="none" stroke-width="1"/>
+<text x="959.123" y="261" fill="#F3F7FF" font-size="24" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">0.804</text>
+<text x="70" y="389" fill="#F3F7FF" font-size="25" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">A2A</text>
+<text x="70" y="418" fill="#B5C3D8" font-size="17" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">771 public-network actors</text>
+<rect x="398" y="362" width="682" height="48" rx="7" fill="#24344C" stroke="none" stroke-width="1"/>
+<rect x="398" y="362" width="531.005" height="48" rx="7" fill="#56D3A3" stroke="none" stroke-width="1"/>
+<text x="942.005" y="396" fill="#F3F7FF" font-size="24" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">0.779</text>
+<text x="70" y="590" fill="#B5C3D8" font-size="17" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Measure: Gini of actor degree in the released R1 co-participation networks.</text>
+<text x="70" y="619" fill="#F9C66B" font-size="17" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Boundary: public interactions do not measure demographic inclusion or private coordination.</text>
+</svg>
