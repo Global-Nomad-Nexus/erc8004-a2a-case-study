@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: If you use this software or the accompanying dataset, please cite it as below.
+message: Cite this software fork for code and vector figures; cite the separate dataset when using its records.
 title: "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols"
 authors:
   - family-names: Wang
@@ -13,8 +13,7 @@ version: 1.1.1
 year: 2026
 type: software
 license: MIT
-doi: 10.5281/zenodo.21830235
-repository-code: https://github.com/kl41r3/erc8004-a2a-case-study
+repository-code: https://github.com/sunshineluyao/erc8004-a2a-case-study
 repository: https://huggingface.co/datasets/kl41r3/erc8004-vs-a2a-governance
 keywords:
   - governance
@@ -24,6 +23,7 @@ keywords:
   - LLM annotation
   - reproducibility
 notes: >
-  Version 1.1.1 makes the complete v1.1 robustness release reproducible from one
-  command and stages the matching Hugging Face dataset card, manifests, schemas,
-  and five robustness Parquet tables. Scientific data and results are unchanged.
+  This fork adds a checked vector figure gallery and reviewer navigation to the
+  v1.1.1 computational package. Its upstream archive DOI 10.5281/zenodo.21830235
+  is not an archive of these later fork-only changes. The frozen dataset remains
+  hosted at the separate Hugging Face repository and uses CC BY-NC 4.0.

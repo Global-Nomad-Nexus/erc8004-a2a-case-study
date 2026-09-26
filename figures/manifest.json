@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "command": "python3 scripts/visualise/build_release_figures.py",
+  "palette": {
+    "background": "#0B1220",
+    "ink": "#F3F7FF",
+    "ERC": "#34D3E6",
+    "A2A": "#56D3A3",
+    "boundary": "#F9C66B"
+  },
+  "graphics_inventory": {
+    "document": "source and proposals",
+    "magnifier": "review and checking",
+    "network": "interactions and deployment",
+    "table": "archived and result data"
+  },
+  "figures": [
+    {
+      "file": "hero.svg",
+      "caption_evidence_class": "conceptual",
+      "reader_task": "framing",
+      "source_code": "scripts/visualise/build_release_figures.py",
+      "inputs": [],
+      "svg_sha256": "0489551e5979e933c30b7ceb3af99576ccbc3156786e7c1dd9000377654d5acc",
+      "alt_text": "Comparison of ERC-8004 and A2A authority paths, three descriptive evidence themes, and a six-stage reproducibility pathway.",
+      "interpretation_boundary": "Governance architectures and evidence pipeline; schematic, not a measured effect."
+    },
+    {
+      "file": "participation-inequality.svg",
+      "caption_evidence_class": "descriptive",
+      "reader_task": "evidence",
+      "source_code": "scripts/visualise/build_release_figures.py",
+      "inputs": [
+        {
+          "path": "analysis/metrics/r1/network_metrics_table.csv",
+          "sha256": "fb15cc167f2eb599d8b2da0c25bb2b5ad4ec2ce81bf6fd1304859534fa360ac4"
+        }
+      ],
+      "svg_sha256": "ed5f6624f4e60a43da4be0f75f54d27088c3597a7c08b5bd17c8e788a919719d",
+      "alt_text": "Two bars show R1 public-network degree Gini: ERC-8004 0.804 and A2A 0.779.",
+      "interpretation_boundary": "Public-network degree Gini; different actor counts."
+    },
+    {
+      "file": "scope-connectivity.svg",
+      "caption_evidence_class": "descriptive",
+      "reader_task": "evidence",
+      "source_code": "scripts/visualise/build_release_figures.py",
+      "inputs": [
+        {
+          "path": "analysis/metrics/r1/network_metrics_table.csv",
+          "sha256": "fb15cc167f2eb599d8b2da0c25bb2b5ad4ec2ce81bf6fd1304859534fa360ac4"
+        },
+        {
+          "path": "analysis/metrics/r2/network_metrics_table.csv",
+          "sha256": "135f5dcf45f3bdcd46a28d77c0d2c58757d8e42e94c41e0f615dab711f124a67"
+        }
+      ],
+      "svg_sha256": "5479516359392aa13ca3aca614fa56b49f268784beb42a8fd78ba47e2ef1653c",
+      "alt_text": "Separate R1 and R2 panels show different giant-component ratios for ERC and A2A under different corpus boundaries.",
+      "interpretation_boundary": "R1 and R2 differ in corpus and network construction; no causal transition."
+    },
+    {
+      "file": "argument-bootstrap.svg",
+      "caption_evidence_class": "descriptive",
+      "reader_task": "evidence",
+      "source_code": "scripts/visualise/build_release_figures.py",
+      "inputs": [
+        {
+          "path": "analysis/metrics/neurips26/bootstrap_argument_differences.csv",
+          "sha256": "ba9bc5d75bc0be5a26a47aba47583faa71449278a2a6153e63ecbc5fc74aae74"
+        }
+      ],
+      "svg_sha256": "415846f23a40ace0277caa72678108d86694a275c5495f89f65a4eb3e5e31618",
+      "alt_text": "Five point estimates and 95 percent bootstrap intervals for A2A minus ERC-8004 argument shares; all intervals touch or cross zero.",
+      "interpretation_boundary": "Equal-size record resampling; not a matched organizational comparison."
+    }
+  ]
+}

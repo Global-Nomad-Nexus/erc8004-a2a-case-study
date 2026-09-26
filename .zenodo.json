@@ -1,6 +1,6 @@
 {
   "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols",
-  "description": "Computational pipeline for the comparative governance study of ERC-8004 (DAO / EIP rough consensus) and Google A2A (corporate TSC): scraping, multi-model LLM annotation, discourse metrics, and social network analysis. Version v1.1.1 completes one-command reproduction and Hugging Face staging for the unchanged v1.1 robustness results. The accompanying dataset is published on Hugging Face (kl41r3/erc8004-vs-a2a-governance, CC BY-NC 4.0) under a pinned revision.",
+  "description": "Computational pipeline for a descriptive comparison of public ERC-8004 and A2A governance records: scraping, multi-model LLM annotation, discourse metrics, and social network analysis. This fork adds source-linked vector figures and reviewer navigation to the v1.1.1 computational package. A2A allows external contribution while initial formal voting is held by an eight-seat TSC. The accompanying dataset is hosted separately on Hugging Face (kl41r3/erc8004-vs-a2a-governance, CC BY-NC 4.0) under a pinned revision.",
   "upload_type": "software",
   "version": "v1.1.1",
   "creators": [

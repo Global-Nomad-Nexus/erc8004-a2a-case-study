@@ -7,9 +7,16 @@
 - Public source records: Ethereum Magicians and GitHub traces retain their
   respective platform and contributor terms. URLs and native identifiers are
   preserved for provenance.
+- The four SVGs in `figures/` are original, code-generated graphics under the
+  repository's MIT license. Their quantitative values come from the tracked
+  result tables; `figures/manifest.json` records source and output digests.
+  They contain no third-party icon, logo, image, or remote font.
 
-No manuscript or manuscript figure is distributed in this release. The package
+No manuscript, LaTeX source, or submitted PDF is distributed. The package
 excludes private credentials, enriched contributor profiles, institution-inference
 files, repository histories, private research notes, and the not-yet-released
 nine-protocol (R3) analysis outputs. The R1/R2 raw archive on Hugging Face is
-unchanged by this release.
+unchanged by this repository update. Its CC BY-NC 4.0 dataset license is
+separate from the MIT license for code and original vector drawings. The
+upstream Zenodo DOI identifies a prior deposited upstream software version;
+it does not archive this fork's new figures.

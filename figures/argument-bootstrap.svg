@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+<title id="title">Equal-size bootstrap intervals for argument categories</title>
+<desc id="desc">Point estimates and 95 percent intervals for five A2A minus ERC-8004 argument-type shares. Each bootstrap draws 142 records per case, 2000 times. All intervals include or touch zero.</desc>
+<rect x="0" y="0" width="1200" height="740" rx="0" fill="#0B1220" stroke="none" stroke-width="1"/>
+<text x="65" y="72" fill="#F3F7FF" font-size="32" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Equal-size resampling qualifies the discourse contrast</text>
+<text x="65" y="108" fill="#B5C3D8" font-size="17" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">A2A minus ERC-8004 · percentage points · 2,000 bootstrap resamples</text>
+<rect x="405" y="166" width="690" height="416" rx="12" fill="#152239" stroke="none" stroke-width="1"/>
+<line x1="750" y1="166" x2="750" y2="582" stroke="#F9C66B" stroke-width="2" />
+<text x="750" y="151" fill="#F9C66B" font-size="16" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">No difference</text>
+<text x="66" y="216" fill="#F3F7FF" font-size="20" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Technical</text>
+<line x1="432.287" y1="209" x2="974.269" y2="209" stroke="#34D3E6" stroke-width="6" />
+<line x1="432.287" y1="198" x2="432.287" y2="220" stroke="#34D3E6" stroke-width="2" />
+<line x1="974.269" y1="198" x2="974.269" y2="220" stroke="#34D3E6" stroke-width="2" />
+<circle cx="700.9" cy="209" r="8" fill="#56D3A3" stroke="#0B1220" stroke-width="2"/>
+<text x="1107" y="215" fill="#F3F7FF" font-size="17" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">-1.8</text>
+<text x="66" y="294" fill="#F3F7FF" font-size="20" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Governance principles</text>
+<line x1="562.641" y1="287" x2="768.688" y2="287" stroke="#34D3E6" stroke-width="6" />
+<line x1="562.641" y1="276" x2="562.641" y2="298" stroke="#34D3E6" stroke-width="2" />
+<line x1="768.688" y1="276" x2="768.688" y2="298" stroke="#34D3E6" stroke-width="2" />
+<circle cx="665.3" cy="287" r="8" fill="#56D3A3" stroke="#0B1220" stroke-width="2"/>
+<text x="1107" y="293" fill="#F3F7FF" font-size="17" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">-3.2</text>
+<text x="66" y="372" fill="#F3F7FF" font-size="20" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Economic</text>
+<line x1="600.488" y1="365" x2="750" y2="365" stroke="#34D3E6" stroke-width="6" />
+<line x1="600.488" y1="354" x2="600.488" y2="376" stroke="#34D3E6" stroke-width="2" />
+<line x1="750" y1="354" x2="750" y2="376" stroke="#34D3E6" stroke-width="2" />
+<circle cx="678.5" cy="365" r="8" fill="#56D3A3" stroke="#0B1220" stroke-width="2"/>
+<text x="1107" y="371" fill="#F3F7FF" font-size="17" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">-2.7</text>
+<text x="66" y="450" fill="#F3F7FF" font-size="20" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Process</text>
+<line x1="619.176" y1="443" x2="1067.71" y2="443" stroke="#34D3E6" stroke-width="6" />
+<line x1="619.176" y1="432" x2="619.176" y2="454" stroke="#34D3E6" stroke-width="2" />
+<line x1="1067.71" y1="432" x2="1067.71" y2="454" stroke="#34D3E6" stroke-width="2" />
+<circle cx="846.4" cy="443" r="8" fill="#56D3A3" stroke="#0B1220" stroke-width="2"/>
+<text x="1107" y="449" fill="#F3F7FF" font-size="17" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">+3.6</text>
+<text x="66" y="528" fill="#F3F7FF" font-size="20" font-weight="600" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Off-topic</text>
+<line x1="712.621" y1="521" x2="992.957" y2="521" stroke="#34D3E6" stroke-width="6" />
+<line x1="712.621" y1="510" x2="712.621" y2="532" stroke="#34D3E6" stroke-width="2" />
+<line x1="992.957" y1="510" x2="992.957" y2="532" stroke="#34D3E6" stroke-width="2" />
+<circle cx="853.4" cy="521" r="8" fill="#56D3A3" stroke="#0B1220" stroke-width="2"/>
+<text x="1107" y="527" fill="#F3F7FF" font-size="17" font-weight="700" text-anchor="start" font-family="Arial, Helvetica, sans-serif">+3.9</text>
+<line x1="405" y1="593" x2="1095" y2="593" stroke="#B5C3D8" stroke-width="1" />
+<line x1="484.615" y1="589" x2="484.615" y2="600" stroke="#B5C3D8" stroke-width="1" />
+<text x="484.615" y="625" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">-10</text>
+<line x1="617.308" y1="589" x2="617.308" y2="600" stroke="#B5C3D8" stroke-width="1" />
+<text x="617.308" y="625" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">-5</text>
+<line x1="750" y1="589" x2="750" y2="600" stroke="#B5C3D8" stroke-width="1" />
+<text x="750" y="625" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">+0</text>
+<line x1="882.692" y1="589" x2="882.692" y2="600" stroke="#B5C3D8" stroke-width="1" />
+<text x="882.692" y="625" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">+5</text>
+<line x1="1015.38" y1="589" x2="1015.38" y2="600" stroke="#B5C3D8" stroke-width="1" />
+<text x="1015.38" y="625" fill="#B5C3D8" font-size="15" font-weight="400" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">+10</text>
+<text x="65" y="673" fill="#F9C66B" font-size="17" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">All displayed 95% intervals touch or cross zero; uncertainty is from record resampling only.</text>
+<text x="65" y="701" fill="#B5C3D8" font-size="16" font-weight="400" text-anchor="start" font-family="Arial, Helvetica, sans-serif">Each resample uses 142 records per case. This does not balance platform maturity or organizational resources.</text>
+</svg>
